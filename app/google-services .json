@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "434060249570",
+    "firebase_url": "https://wallpape-mesagge-and-image.firebaseio.com",
+    "project_id": "wallpape-mesagge-and-image",
+    "storage_bucket": "wallpape-mesagge-and-image.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434060249570:android:50a4a01c0d982784be11bb",
+        "android_client_info": {
+          "package_name": "com.neodevloper.hdwallpaper2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434060249570-rshfi3la7lgi6t5ot1rf7ht6laaa4gje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neodevloper.hdwallpaper2021",
+            "certificate_hash": "e579fe4afd2c47f308050e38693a3a6cfe81e7d9"
+          }
+        },
+        {
+          "client_id": "434060249570-pid7ggc0h1897q6m7651tfnsmfud0pgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxkH_w3P3w55BB5L6L6Kr5Z6h9cSj_H3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434060249570-pid7ggc0h1897q6m7651tfnsmfud0pgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

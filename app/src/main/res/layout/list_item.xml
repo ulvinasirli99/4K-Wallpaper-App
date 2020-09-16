@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.neodevloper.hdwallpaper2021.helpers.image_helper.SquareLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="2dp"
+        android:id="@+id/image_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="2dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:visibility="visible" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/list_wait"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/to_inage_progres" />
+
+</com.neodevloper.hdwallpaper2021.helpers.image_helper.SquareLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.neodevloper.hdwallpaper2021">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/unnamed"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/unnamed"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activitys.assistant.reason.FavoriteActivity"/>
+        <activity android:name=".activitys.assistant.primary.AppReportActivity"/>
+        <activity android:name=".activitys.assistant.reason.AboutActivity" />
+        <activity android:name=".web.follow.help" />
+        <activity android:name=".web.follow.instagram" />
+        <activity android:name=".web.follow.facebook" />
+        <activity android:name=".web.follow.twitter" />
+        <activity android:name=".web.misc.WebSite" />
+        <activity android:name=".activitys.call_back_activity.ultimate.FinishActivity" >
+
+        </activity>
+        <activity android:name=".activitys.assistant.primary.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitys.assistant.reason.CategoryActivity" />
+        <activity android:name=".fragments.categoy_fragment.special.AnimalFrag" />
+        <activity android:name=".fragments.categoy_fragment.special.CloudFrag" />
+        <activity android:name=".fragments.categoy_fragment.special.FlowerFrag" />
+        <activity android:name=".fragments.categoy_fragment.special.SeaFrag" />
+        <activity android:name=".fragments.categoy_fragment.latter.CarFrag" />
+        <activity android:name=".fragments.categoy_fragment.latter.LightFrag" />
+        <activity android:name=".fragments.categoy_fragment.latter.WallFrag" />
+        <activity android:name=".fragments.categoy_fragment.sides.ArchitectureFrag" />
+        <activity android:name=".fragments.categoy_fragment.sides.FashionFrag" />
+        <activity android:name=".fragments.categoy_fragment.sides.LoveFrag" />
+        <activity android:name=".fragments.categoy_fragment.sides.SpaceFrag" />
+        <activity android:name=".fragments.categoy_fragment.sides.TravelFrag" />
+        <activity android:name=".activitys.call_back_activity.ultimate.SearchActivity" />
+        <activity android:name=".activitys.assistant.reason.FeedBackActivity" />
+        <activity android:name=".activitys.call_back_activity.end_final.ResultActivity" />
+        <activity android:name=".activitys.assistant.primary.FullScreenActivity" />
+        <activity android:name=".activitys.call_back_activity.end_final.BasicActivity" />
+        <activity android:name=".activitys.assistant.primary.SplashActivity">
+
+        </activity>
+        <activity android:name=".activitys.call_back_activity.ultimate.SettingActivity" />
+        <activity android:name=".activitys.call_back_activity.ultimate.InfoActivity" />
+        <activity android:name=".activitys.assistant.primary.PreviewActivity"/>
+    </application>
+
+</manifest>

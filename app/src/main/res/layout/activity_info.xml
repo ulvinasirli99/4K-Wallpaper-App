@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pricvary_policy_bacround"
+    tools:context="com.neodevloper.hdwallpaper2021.activitys.call_back_activity.ultimate.InfoActivity">
+
+    <ScrollView
+        android:scrollbarTrackVertical="@color/white"
+        android:scrollbarThumbVertical="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/line2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/policy" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line2"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/view23"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@color/white" />
+
+
+                <TextView
+                    android:id="@+id/line33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="11dp"
+                    android:gravity="center"
+                    android:text="@string/privacy_policy"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/line66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/line33"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/if_you_choose_to_use_my_service_then_you_agree_to_the_collection_and_use_of_information_in_relation_to_this_policy_the_personal_information_that_i_collect_is_used_for_providing_and_improving_the_service_i_will_not_use_or_share_your_information_with_anyone_except_as_described_in_this_privacy_policy_the_terms_used_in_this_privacy_policy_have_the_same_meanings_as_in_our_terms_and_conditions_which_is_accessible_at_4k_wallpaper_unless_otherwise_defined_in_this_privacy_policy"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/litre44"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_below="@id/line66"
+                    android:layout_marginTop="@dimen/padding_4dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/opped"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/litre44"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Log Data"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/jsjs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/opped"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/i_want_to_inform_you_that_whenever_you_use_my_service_in_a_case_of_an_error_in_the_app_i_collect_data_and_information_through_third_party_products_on_your_phone_called_log_data_this_log_data_may_include_information_such_as_your_device_internet_protocol_ip_address_device_name_operating_system_version_the_configuration_of_the_app_when_utilizing_my_service_the_time_and_date_of_your_use_of_the_service_and_other_statistics"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/optew"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_below="@id/jsjs"
+                    android:layout_marginTop="@dimen/padding_4dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/tryy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/optew"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Security"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rtvf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tryy"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/i_value_your_trust_in_providing_us_your_personal_information_thus_we_are_striving_to_use_commercially_acceptable_means_of_protecting_it_but_remember_that_no_method_of_transmission_over_the_internet_or_method_of_electronic_storage_is_100_secure_and_reliable_and_i_cannot_guarantee_its_absolute_security"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <View
+                    android:id="@+id/rtfd"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_below="@id/rtvf"
+                    android:layout_marginTop="@dimen/padding_4dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/heyas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rtfd"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/terms_conditions"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ewraf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/heyas"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/by_downloading_or_using_the_app_these_terms_will_automatically_apply_to_you_you_should_make_sure_therefore_that_you_read_them_carefully_before_using_the_app_you_re_not_allowed_to_copy_or_modify_the_app_any_part_of_the_app_or_our_trademarks_in_any_way_you_re_not_allowed_to_attempt_to_extract_the_source_code_of_the_app_and_you_also_shouldn_t_try_to_translate_the_app_into_other_languages_or_make_derivative_versions_the_app_itself_and_all_the_trade_marks_copyright_database_rights_and_other_intellectual_property_rights_related_to_it_still_belong_to_ulvi_nasirov_ulvi_nasirov_is_committed_to_ensuring_that_the_app_is_as_useful_and_efficient_as_possible_for_that_reason_we_reserve_the_right_to_make_changes_to_the_app_or_to_charge_for_its_services_at_any_time_and_for_any_reason_we_will_never_charge_you_for_the_app_or_its_services_without_making_it_very_clear_to_you_exactly_what_you_re_paying_for_the_app_does_use_third_party_services_that_declare_their_own_terms_and_conditions_with_respect_to_ulvi_nasirov_s_responsibility_for_your_use_of_the_app_when_you_re_using_the_app_it_s_important_to_bear_in_mind_that_although_we_endeavour_to_ensure_that_it_is_updated_and_correct_at_all_times_we_do_rely_on_third_parties_to_provide_information_to_us_so_that_we_can_make_it_available_to_you_ulvi_nasirov_accepts_no_liability_for_any_loss_direct_or_indirect_you_experience_as_a_result_of_relying_wholly_on_this_functionality_of_the_app"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/rwer"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_below="@id/ewraf"
+                    android:layout_marginTop="@dimen/padding_4dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/brest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rwer"
+                    android:gravity="center"
+                    android:text="Contact Us"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:text="@string/pricvary_genratorss"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/brest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neodevloper.hdwallpaper2021.activitys.call_back_activity.ultimate.SettingActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:title="Settings" />
+
+
+    <ImageView
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_setting"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_wifi_black_24dp" />
+
+    <TextView
+        android:id="@+id/tress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_setting"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ll"
+        android:text="Wi-Fi"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_volume_up_black_24dp" />
+
+    <TextView
+        android:id="@+id/uye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tress"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/tt"
+        android:text="@string/notification_sound"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/rr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tt"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_data_usage_black_24dp" />
+
+    <TextView
+        android:id="@+id/ewq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uye"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/rr"
+        android:text="@string/total_cache"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rr"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_help_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ewq"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/ff"
+        android:text="@string/help"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_brightness_high_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/qpo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pro"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/ads"
+        android:layout_toRightOf="@id/ads"
+        android:text="@string/brightness"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/wifi_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_setting"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:text="WiFi is OFF" />
+
+    <CheckBox
+        android:id="@+id/chcsound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wifi_switch"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp" />
+
+
+    <ImageView
+        android:id="@+id/imgChaceRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chcsound"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_delete_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chcsound"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="44dp"
+        android:text="500 KB"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgChaceRefresh"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_redo_black_24dp" />
+
+
+    <SeekBar
+        android:id="@+id/bright_seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView3"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="24dp"
+        android:padding="5dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lm"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/ar"
+        android:gravity="center"
+        android:text="@string/followSocial"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/lm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+
+        <ImageView
+            android:id="@+id/twitterF"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/facebookF"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/facebook" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/instagramF"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/instagram" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

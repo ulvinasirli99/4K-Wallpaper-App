@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2962FF</color>
+    <color name="colorPrimaryDark">#D50000</color>
+    <color name="colorAccent">#52A8FF</color>
+
+    <color name="bozun50calari">#6E5D5D</color>
+    <color name="dust">#98BF26</color>
+    <color name="red">#D80000</color>
+    <color name="redshade500">#500606</color>
+    <color name="yellow">#FFD600</color>
+    <color name="pink">#F40370</color>
+    <color name="pink_dark">#9A094A</color>
+    <color name="black">#000000</color>
+    <color name="twors">#4A4646</color>
+    <color name="grey">#393333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#0091EA</color>
+    <color name="green">#64DD17</color>
+    <color name="sur">#00A18B</color>
+    <color name="ftr">#A780DD</color>
+    <color name="fb_light">#3B5CB5</color>
+    <color name="brown">#FF3300</color>
+    <color name="port">#FF6D00</color>
+    <color name="tre">#1e1e45</color>
+    <color name="tre_one">#141d26</color>
+    <color name="current_time_weather_color">#1e1e45</color>
+    <color name="boz">#919DAA</color>
+    <color name="tre_light">#172635</color>
+    <color name="transP">#657E97</color>
+
+
+    <color name="colorPrimaryNight">#D80000</color>
+    <color name="colorPrimaryDarkNight">#141d26</color>
+    <color name="colorAccentNight">#ffffff</color>
+    <color name="primaryTitleColor">#212121</color>
+    <color name="primaryTitleColorNight">#FFFF</color>
+
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+
+    <!-- colors for tab and screent text -->
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+
+
+</resources>

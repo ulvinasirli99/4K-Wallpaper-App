@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawerLayout_ff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.neodevloper.hdwallpaper2021.activitys.call_back_activity.ultimate.FinishActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/finish_layout_toolbar"/>
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/toolbar_f"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:background="@color/red"-->
+<!--            android:minHeight="?attr/actionBarSize"-->
+<!--            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+<!--            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"-->
+<!--            app:title="4K Wallpaper" />-->
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout_f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:minHeight="?attr/actionBarSize"
+            app:tabGravity="fill"
+            app:tabIconTint="@color/white"
+            app:tabIndicatorColor="@color/black"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="@color/white">
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_weight="1"
+            android:id="@+id/viewpager_f"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView_ff"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/tre_one"
+        app:headerLayout="@layout/header"
+        app:itemIconTint="@color/blue"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/drawer_menu_for_finish" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

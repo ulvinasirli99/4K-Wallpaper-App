@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="@string/settings"
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_settings_black_24dp"/>
+
+        <item
+            android:id="@+id/purchase"
+            android:icon="@drawable/ic_shop_black_24dp"
+            android:title="@string/remove_ads"/>
+
+
+    </group>
+
+
+    <item android:title="@string/communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/send"
+                android:title="@string/send_feedback" />
+
+            <item
+                android:id="@+id/sharing"
+                android:icon="@drawable/sharing_bkack"
+                android:title="@string/sharing_is_caring" />
+
+
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/info_black"
+                android:title="@string/about_disclaimer" />
+
+        </menu>
+
+
+    </item>
+
+</menu>

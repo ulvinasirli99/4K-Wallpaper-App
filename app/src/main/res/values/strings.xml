@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">4K Wallpaper</string>
+    <string name="auto_change_image">Auto Wallpaper Changer</string>
+    <string name="save_image">Save Image</string>
+    <string name="open">Open</string>
+
+    <string name="search_info_text">You can search and download the images you want here</string>
+    <string name="search_edit_empty">This part cannot be left blank</string>
+    <string name="wifiCount">Turn the Connection On or Off</string>
+
+    <string name="followSocial">Follow us on social networks</string>
+
+    <string name="pricvary" translatable="false">
+       Privacy Policy
+Neo Devloper built the Wallpaper app as a Commercial app. This SERVICE is provided by Neo Devloper and is intended for use as is.
+
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+
+If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Wallpaper unless otherwise defined in this Privacy Policy.
+
+Information Collection and Use
+
+For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+
+The app does use third party services that may collect information used to identify you.
+
+Link to privacy policy of third party service providers used by the app
+
+Google Play Services
+AdMob
+Fabric
+One Signal
+    </string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="home_second" translatable="false">Home Second</string>
+    <string name="title_activity_finish" translatable="false">FinishActivity</string>
+    <string name="tab_text_1" translatable="false">Tab 1</string>
+    <string name="tab_text_2" translatable="false">Tab 2</string>
+    <string name="version">Version</string>
+    <string name="close">Close</string>
+    <string name="your_phone_does_not_support_this_mode">Your phone does not support this mode</string>
+    <string name="if_there_is_an_error_in_the_program_please_download_it_here_by_screen_and_let_us_know">If there is an error in , the program, please download it here by screen and let us know.</string>
+    <string name="write_to_us">Write to us .</string>
+    <string name="enter_message_here">Enter message here...</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="welcome_4k">Welcome 4K Wallpaper</string>
+    <string name="welcome_more">More than 1000 new pictures every day,</string>
+    <string name="count_wall">1.8 mln Wallpaper</string>
+    <string name="count_more">More than 2 million wallpapers in one application,</string>
+    <string name="finish" translatable="false">Finish</string>
+    <string name="wall_take">Take advantage of the quick download and daily updated wallpaper application.</string>
+    <string name="category_toolbar">Category</string>
+    <string name="home_tool">Home</string>
+    <string name="search_tool">Search Wallpaper</string>
+    <string name="cate">Category</string>
+    <string name="home">Home</string>
+    <string name="searchh">Search</string>
+    <string name="search_images">Search Images</string>
+    <string name="app_report">App Report</string>
+    <string name="settings">Settings</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="communicate">Communicate</string>
+    <string name="send_feedback">Send Feedback!</string>
+    <string name="sharing_is_caring">Sharing is Caring</string>
+    <string name="about_disclaimer">About | Disclaimer</string>
+    <string name="this_feature_will_be_justified_in_the_next_version">This feature will be justified in the next version</string>
+    <string name="notification_sound">Notification Sound</string>
+    <string name="total_cache">Total Cache</string>
+    <string name="help">Help</string>
+    <string name="brightness">Brightness</string>
+    <string name="wifi_disable">WiFi Disable</string>
+    <string name="wifi_enable">WiFi Enabled</string>
+    <string name="bright_permission">Permission not granted , Please allow this access from your phone</string>
+    <string name="permisson_granted">Permission Granted !</string>
+    <string name="permisson_not_granted">Permission not granted !</string>
+    <string name="send">Send</string>
+    <string name="send_feed">Send Feedback</string>
+    <string name="about">About</string>
+    <string name="favorite">Favorite</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="privacy">Privacy</string>
+    <string name="restart">Restart</string>
+    <string name="share">Share</string>
+    <string name="not_found_sever">Not Found Server</string>
+    <string name="text_blank">The text is blank</string>
+    <string name="follow_the_wallpaper">Follow the Wallpaper</string>
+    <string name="go_back_click">Go back and click on the picture again</string>
+    <string name="go_download_image">Please download a photo</string>
+    <string name="sumbit">Sumbit</string>
+    <string name="terms_conditions" translatable="false"><![CDATA[Terms & Conditions]]></string>
+    <string name="by_downloading_or_using_the_app_these_terms_will_automatically_apply_to_you_you_should_make_sure_therefore_that_you_read_them_carefully_before_using_the_app_you_re_not_allowed_to_copy_or_modify_the_app_any_part_of_the_app_or_our_trademarks_in_any_way_you_re_not_allowed_to_attempt_to_extract_the_source_code_of_the_app_and_you_also_shouldn_t_try_to_translate_the_app_into_other_languages_or_make_derivative_versions_the_app_itself_and_all_the_trade_marks_copyright_database_rights_and_other_intellectual_property_rights_related_to_it_still_belong_to_ulvi_nasirov_ulvi_nasirov_is_committed_to_ensuring_that_the_app_is_as_useful_and_efficient_as_possible_for_that_reason_we_reserve_the_right_to_make_changes_to_the_app_or_to_charge_for_its_services_at_any_time_and_for_any_reason_we_will_never_charge_you_for_the_app_or_its_services_without_making_it_very_clear_to_you_exactly_what_you_re_paying_for_the_app_does_use_third_party_services_that_declare_their_own_terms_and_conditions_with_respect_to_ulvi_nasirov_s_responsibility_for_your_use_of_the_app_when_you_re_using_the_app_it_s_important_to_bear_in_mind_that_although_we_endeavour_to_ensure_that_it_is_updated_and_correct_at_all_times_we_do_rely_on_third_parties_to_provide_information_to_us_so_that_we_can_make_it_available_to_you_ulvi_nasirov_accepts_no_liability_for_any_loss_direct_or_indirect_you_experience_as_a_result_of_relying_wholly_on_this_functionality_of_the_app" translatable="false">By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Ulvi Nasirov. Ulvi Nasirov is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for. The app does use third party services that declare their own Terms and Conditions. With respect to Ulvi Nasirov’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. Ulvi Nasirov accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.</string>
+    <string name="i_value_your_trust_in_providing_us_your_personal_information_thus_we_are_striving_to_use_commercially_acceptable_means_of_protecting_it_but_remember_that_no_method_of_transmission_over_the_internet_or_method_of_electronic_storage_is_100_secure_and_reliable_and_i_cannot_guarantee_its_absolute_security" translatable="false">I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.</string>
+    <string name="i_want_to_inform_you_that_whenever_you_use_my_service_in_a_case_of_an_error_in_the_app_i_collect_data_and_information_through_third_party_products_on_your_phone_called_log_data_this_log_data_may_include_information_such_as_your_device_internet_protocol_ip_address_device_name_operating_system_version_the_configuration_of_the_app_when_utilizing_my_service_the_time_and_date_of_your_use_of_the_service_and_other_statistics" translatable="false">I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.</string>
+    <string name="if_you_choose_to_use_my_service_then_you_agree_to_the_collection_and_use_of_information_in_relation_to_this_policy_the_personal_information_that_i_collect_is_used_for_providing_and_improving_the_service_i_will_not_use_or_share_your_information_with_anyone_except_as_described_in_this_privacy_policy_the_terms_used_in_this_privacy_policy_have_the_same_meanings_as_in_our_terms_and_conditions_which_is_accessible_at_4k_wallpaper_unless_otherwise_defined_in_this_privacy_policy" translatable="false">If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy. The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at 4K Wallpaper unless otherwise defined in this Privacy Policy.</string>
+    <string name="privacy_policy" translatable="false">Privacy Policy</string>
+    <string name="these_terms_and_conditions_are_effective_as_of_2020_07_20_if_you_have_any_questions_or_suggestions_about_my_terms_and_conditions_do_not_hesitate_to_contact_me_at_support_4kwallpaper_com_91_747_48_338_34_this_terms_and_conditions_page_was_generated_by_app_privacy_policy_generator" translatable="false"><![CDATA[These terms and conditions are effective as of 2020-07-20 If you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me at support@4Kwallpaper.com && +91 747 48 338 34. This Terms and Conditions page was generated by App Privacy Policy Generator]]></string>
+    <string name="pricvary_genratorss" translatable="false"><![CDATA[These terms and conditions are effective as of 2020-07-20 If you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me at support@4Kwallpaper.com && +91 747 48 338 34. This Terms and Conditions page was generated by App Privacy Policy Generator]]></string>
+    <string name="cookies_security" translatable="false"><![CDATA[Cookies && Security]]></string>
+    <string name="post_service_cokkie">This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="last_updated_20_august_2020">Last Updated 20 August ,2020</string>
+    <string name="_4k_wallpaper">4K Wallpaper</string>
+
+</resources>
